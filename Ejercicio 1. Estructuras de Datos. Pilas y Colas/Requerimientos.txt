@@ -1,0 +1,39 @@
+Desarrollar un programa en el lenguaje C++. Definir una estructura para 10 datos de tipo entero, los datos admitidos 
+deben ser: positivos, pares e irrepetibles.
+
+El programa deberá mostrar el menú principal de opciones para elegir entre una cola y una pila.
+
+Menú principal:
+1. Pila
+2. Cola
+3. Salir
+
+
+Al seleccionar la opción 1.- Pila. Se deberá mostrar el siguiente menú:
+
+1. Apilar valor
+2. Buscar valor en la pila
+3. Valor más pequeño
+4. Valor más grande
+5. Desapilar estructura
+6. Regresar al menú principal
+
+Al seleccionar la opcion 5.- Desapilar, el programa deberá ir extrayendo valor por valor aplicando el método LIFO
+
+
+Al seleccionar la opción 2.- Cola. Se deberá mostrar el siguiente menú.
+1. Encolar valor
+2. Buscar valor en la cola
+3. Valor más pequeño
+4. Valor más grande
+5. Desencolar estructura
+6. Regresar al menú principal
+
+Al seleccionar la opción 5.- Desencolar, el programa deberá ir extrayendo valor por valor aplicando el método FIFO
+
+Restricciones:
+* Solo se permite el uso de arreglos, no está permitido el uso de estructuras, listas o punteros.
+* El programa no debe permitir almacenar valores decimales o letras.
+* Si el elemento a buscar no se encuentra en la estructura, se deberá volver a solicitar.
+
+
