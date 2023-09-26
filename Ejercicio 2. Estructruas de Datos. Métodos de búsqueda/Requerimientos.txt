@@ -1,0 +1,25 @@
+Desarrollar un programa en lenguaje C++ que utilice un arreglo, como estructura de datos, que almacene 10 datos, en el que 
+se puedan implementar los métodos de búsqueda secuencial, binaria e interpolación para encontrar datos almacenados.
+
+* El programa debe mostrar el siguiente menú principal:
+MÉTODOS DE BÚSQUEDA:
+
+1. SECUENCIAL
+2. BINARIA
+3. INTERPOLACIÓN
+4. INGRESAR DATOS
+5. SALIR
+
+
+* Los datos que almacenará la estructura de datos deben ser enteros, pares, positivos e irrepetibles.
+* El programa debe permitir al usuario ingresar los datos para almacenar en el arreglo con espacio para 10 datos.
+* En cada búsqueda el programa debe imprimir los datos almacenados en el arreglo.
+* El programa debe imprimir cada una de las iteraciones junto con el número de iteraciones que realiza cada método. 
+* Al encontrar un dato por cualquiera de los métodos de búsqueda, el programa, debe mostrar el valor buscado y su posición en el arreglo. 
+* El programa debe indicar mediante un mensaje en caso de realizar una búsqueda de un dato no existente.
+
+
+Restricciones: 
+* Solo se permite el uso de arreglos, no está permitido el uso de estructuras, listas o punteros.
+* El programa no debe permitir ingresar valor decimales o letras.
+
