@@ -1,0 +1,35 @@
+La Universidad "Técnica Todo Sayer" requiere registrar las calificaciones de sus alumnos para cada asignatura, 
+teniendo dos estructuras: una para alumnos y una para calificaciones. Es importante que el software permita
+realizar la inserción de los datos, el ordenamiento de los datos y la busqueda de los datos por medio de un 
+menú principal. El programa debe asegurar la relación de los datos, entre el nombre y la calificación para 
+mantener la integridad y relacion de los mismos.
+
+1. Llenado de arreglos
+2. Ordenación de datos
+3. Búsqueda de datos
+4. Salir
+
+Cuando el usuario seleccione la opción 1 (llenado de arreglos) se debe solicitar el llenado de los arreglos
+al usuario y permitirle capturar los nombres y las calificaciones, mostrando los datos ingresados en ambos 
+vectores con sus posiciones. 
+
+Cuando el usuario seleccione la opción 2 (ordenación de datos) el programa debe ordenar los datos de los 
+arreglos con base en la calificacion (de mayor a menor), dando al usuario la opción de elegir con cuál método de 
+ordenación se realizará la operación. Debe contar con cuatro métodos (Burbuja, Inserción, Seleccion y Quicksort).
+
+Después de ejecutar el método de ordenación elegido, el programa debe mostrar en pantalla el arreglo de claficaciones
+ordenado asociado al nombre correspondiente, así como el número de iteraciones que tuvo el método de ordenación elegido,
+el programa debe esperar a que el usuario presione enter para volver a mostrar el menú principal.
+
+En la búsqueda el programa debe solicitar al usuario el nombre que desea buscar y el método de búsqueda que desea utilizar
+para la búsqueda. Debe contar con tres métodos de búsqueda (Secuencial, Binaria y por Interpolación).
+
+* El programa debe usar como minimo dos arreglos uno para almacenar a los alumnos y uno para almacenar las calificaciones.
+* El programa debe mantener la relación entre los arreglos de alumnos y calificaciones. 
+* El programa debe mostrar el dato encontrado, en caso de no encontrarlo debe notificarlo al usuario. 
+
+Restricciones:
+* No se permite el uso de otro tipo de estructuras, solo arreglos.
+* El programa no debe permitir calificaciones menores a 0 y mayores a 10.
+* Prohibido el uso de estructuras (Struct), listas o punteros. 
+* El menú principal debe repetirse hasta que el usuario decida salir.
