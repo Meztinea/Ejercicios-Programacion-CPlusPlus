@@ -1,0 +1,24 @@
+Diseñar un programa utilizando el lenguaje C++ donde se pueda generar un árbol genealógico binario.
+
+El programa debe almacenar en cada subárbol izquierdo el nombre de los ascendentes femeninos, mientras que cada subárbol derecho
+debe almacenar el nombre de los ascendentes masculinos. El programa debe mostrar los recorridos Inorden, Preorden y Postorden. 
+
+El programa debe mostrar al usuario el siguiente menú:
+
+1. Crear árbol
+2. Mostrar árbol
+3. Recorrido Inorden
+4. Recorrido Preorden
+5. Recorrido Postorden 
+6. Salir
+
+El programa debe comenzar por solicitar los datos del primer nodo (el nodo raíz), posteriormente debe preguntar si dicho nodo
+cuenta con un hijo izquierdo (ascendente femenino), en caso de que la respuesta sea afirmativa, se vuelve a llamar al método, 
+debe presentar recursividad. El proceso se repite hasta llegar a las hojas y luego se repite el proceso para cada nodo de los subárboles
+derechos (ascendentes masculinos).
+
+Al mostrar el árbol se debe mostar una separación entre nodos. 
+
+Restricciones - Consideraciones
+1. Se deben implementar las clases nodo y árbol
+2. El método de creación del árbol debe ser recursivo. 
