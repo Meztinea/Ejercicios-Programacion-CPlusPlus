@@ -1,0 +1,36 @@
+Yuly es la dueña de una empresa de renta de impresoras y multifuncionales llamada 
+“Copy&Papel”. La empresa tiene dos asistentes (Eduardo y Ana) que dependen directamente de
+la dueña.
+ 
+• La compañía tiene cuatro direcciones (Administrativa, Recursos Humanos, Operativa y 
+Calidad).
+• Eduardo está a cargo de la dirección administrativa y recursos humanos
+• Por su parte la dirección administrativa está bajo la responsabilidad de Rafael y la 
+dirección de recursos humanos está bajo la responsabilidad de Laura.
+• Por otro lado, Ana tiene bajo su cargo dos direcciones administrativas: La dirección 
+operativa y la dirección de calidad
+• La dirección de calidad está bajo la responsabilidad de Karla y la dirección operativa está 
+bajo el control de Juan
+• En la dirección administrativa se encuentran laborando Perla y Roberto
+• En la dirección de recursos humanos se encuentra laborando Lucas
+• En la dirección operativa se encuentran laborando Mario y Sofia
+
+1. Con base en la descripción del caso de estudio, diseña de manera gráfica un árbol que represente la estructura 
+jerárquica correspondiente.
+
+2. Diseña un programa en lenguaje C++ que realice los recorridos PREORDEN, INORDEN y POSTORDEN
+del árbol binario previamente diseñado.
+
+* El programa debe permitir crear y llenar el árbol a partir de una raíz y llegar hasta las hojas.
+* El programa debe apegarse a la estructura del caso de estudio.
+* El programa debe imprimir el árbol en pantalla con un espaciado que permita identificar la estructura.
+* El programa debe permitir realizar los tres recorridos en el árbol.
+* Al realizar un recorrido deberá imprimir los datos de cada nodo.
+* El programa debe imprimir el pantalla el siguiente menú:
+
+1. Crear árbol
+2. Mostrar árbol
+3. Recorrido Inorden
+4. Recorrido Preorden
+5. Recorrido Postorden
+6. Salir
