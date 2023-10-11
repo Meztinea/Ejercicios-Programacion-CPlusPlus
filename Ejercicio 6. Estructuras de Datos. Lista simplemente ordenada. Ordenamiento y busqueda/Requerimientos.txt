@@ -1,0 +1,20 @@
+Diseñar un programa utilizando el lenguaje C++ para definir una estructura dinámica lista ordenada simplemente enlazada.
+
+* El programa debe permitir al usuario definir la dimensión de la estructura (no debe ser mayor a 10 posiciones).
+* El programa debe validar que los datos ingresados sean positivos, enteros, pares e irrepetibles. 
+* El programa debe mostrar el siguiente menu de opciones para el usuario:
+
+1. Ingresar datos
+2. Mostrar datos
+3. Búsqueda secuencial
+4. Búsqueda binaria
+5. Búsqueda interpolación
+6. Ordenamiento de burbuja
+7. Ordenamiento de selección
+8. Salir
+
+* En cada búsqueda el programa debe mostrar el número de iteraciones. En caso de no encontrar el dato debe indicarlo
+  enviando un mensaje al usuario.
+* El programa debe permitir al usuario realizar el ordenamiento por cualquier ad e los métodos mencionados.
+* Al mostrar los datos se debe indicar la posición y el dato almacenado.
+
