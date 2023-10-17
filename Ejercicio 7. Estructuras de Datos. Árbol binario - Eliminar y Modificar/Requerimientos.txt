@@ -1,0 +1,20 @@
+Diseña un programa en lenguaje C++ para la craación de un árbol binario. El programa debe mostrar el menú:
+
+Menú de opciones
+1. Agregar un nodo al árbol
+2. Mostrar nodos del árbol
+3. Buscar un nodo en el árbol
+4. Modificar un nodo del árbol
+5. Eliminar un nodo del árbol
+6. Recorrido del árbol Inorden
+7. Recorrido del árbol Preorden
+8. Recorrido del árbol Postorden
+9. Salir del programa
+
+* El programa debe solicitar la entrada por teclado de los datos para cada nodo.
+* El programa debe mostrar de forma clara los datos almacenados en el árbol.
+* El programa debe informar en caso de no contrar un dato al buscarlo.
+* El programa debe imprimir los recorridos solicitados. 
+* El programa solo debe permitir ingresar datos enteros, positivos, pares e irrepetibles.
+* El programa solo debe permitir ingrsear datos entre 0 y 38, que cumplan con el requerimiento anterior.
+* El programa debe informar al usuario en caso de elegir una opción no válida. 
